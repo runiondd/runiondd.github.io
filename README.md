@@ -1,8 +1,8 @@
 # runiondd.github.io
 
-Some stuff. 
+GitHub for Dan Runion.
 
-Some more stuff.
-
-one more time...
-
+- Scrum Master
+- IT PMO Leader
+- Product Owner
+- Developer
