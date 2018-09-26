@@ -1,6 +1,6 @@
 # runiondd.github.io
 
-GitHub for Dan Runion.
+GitHub for Dan Runion.  Charlotte, NC
 
 - Scrum Master
 - IT PMO Leader
