@@ -1,0 +1,182 @@
+
+
+body {
+
+    left: 0;
+    top: 0;
+    margin: 0;
+    background: #F0F0F0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777; 
+    background-image: url("../images/gravel.png");
+    flex-direction: column;
+}
+
+.headerRow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #cccccc;
+    background:  #ffffff;
+    width: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:link  {
+    color: #999ca3;
+}
+
+/* visited link */
+a:visited {
+    color: #999ca3;
+}
+
+.headerTile {
+    float: left;
+    margin-left: 100px;
+    background: #4aaaa5;
+    width: 250px;
+    height: 85px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 80px; 
+    text-align: center;
+}
+
+h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+}
+
+.headerLinks {
+
+    margin-top: 30px;
+}
+
+.headerRow::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+img {
+    display: block;
+    box-shadow: -1px 0px 0px rgba(0,0,0,0.06);
+    width: 200px;  
+}
+
+.tile {
+    position:relative;
+    padding: 10px;
+}
+
+.tile .tileText { 
+    position:absolute; 
+    top:190px; 
+    left:75px; 
+    width:480px; 
+    height:260px;
+    color: white;
+}
+
+.mainContent {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 960px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 100px;
+}
+
+.mainImg {
+    float: left;
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    width: 100%;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add a background color and some padding around the form */
+.contactContainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.grid-item {
+    position: relative;
+    display: block;
+    width: 200px;
+}
+
+
+.label {
+    position: relative;
+    top: -50px;
+    left: -20px;
+    background-color: #4aaaa5;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.portfolioCard {
+     background-color: #4aaaa5;
+      color: white;
+}
+
+.portfolioCard a {
+    color: white;
+}
+
+.red{
+    color:red;
+    }
+    
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
